@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+     
+      
+      <a-entity>
+            <a-box position="-1 0.5 -3" rotation="0 0 0" depth="0.1" height="2.6" width="1.4"
+                   src="https://cdn.glitch.com/32cc7f83-39ca-46bc-9a17-3725135b180a%2Fwindow.jpg?v=1629735304319"></a-box>
+        </a-entity>
+      
+      
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
