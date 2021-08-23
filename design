@@ -5,15 +5,22 @@
   </head>
   <body>
     <a-scene>
-     
+     <a-entity position="0 0.5 20">
+            <a-camera></a-camera>
+        </a-entity>
+
       
       <a-entity>
-            <a-box position="-1 0.5 -3" rotation="0 0 0" depth="0.1" height="2.6" width="1.4"
+            <a-box position="-1 5 6" rotation="0 0 0" depth="0.1" height="3.6" width="2.8"
                    src="https://cdn.glitch.com/32cc7f83-39ca-46bc-9a17-3725135b180a%2Fwindow.jpg?v=1629735304319"></a-box>
         </a-entity>
       
-      
-      <a-sky color="#ECECEC"></a-sky>
+<!--       Walls -->
+      <a-box position="-8 3 0" rotation="0 90 0" width="100" height="100" color="#7BC8A4" depth="0.1"></a-box>
+      <a-box position="8 3 0" rotation="0 90 0" width="100" height="100" color="#7BC8A4" depth="0.1"></a-box>
+      <a-box position="-5 3 0" rotation="0 -360 0" width="50" height="50" color="brown" depth="0.1"></a-box>
+      <a-box position="8 3 0" rotation="0 90 0" width="50" height="50" color="#7BC8A4" depth="0.1"></a-box>
+      <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#7BC8A4"></a-plane>
     </a-scene>
   </body>
 </html>
