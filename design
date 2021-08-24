@@ -5,22 +5,40 @@
   </head>
   <body>
     <a-scene>
-     <a-entity position="0 0.5 20">
+     <a-entity position="0 0.5 14">
             <a-camera></a-camera>
         </a-entity>
 
       
       <a-entity>
-            <a-box position="-1 5 6" rotation="0 0 0" depth="0.1" height="3.6" width="2.8"
+            <a-box position="-1 6 -3.7" rotation="0 0 0" depth="0.1" height="6.6" width="4.8"
                    src="https://cdn.glitch.com/32cc7f83-39ca-46bc-9a17-3725135b180a%2Fwindow.jpg?v=1629735304319"></a-box>
         </a-entity>
       
+<!--       Cuishons -->
+      <a-cylinder position = "-6.6 2.2 -0.8" radius = "0.7" height="4.9" rotation="90 -1 0"
+                  src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Falessi-pebble-300x300.jpg?v=1629821981980" >
+      </a-cylinder>
+      
+      
+<!--       Couch -->
+      <a-box position="-5.5 -1 -1.2" rotation="5 0 0"  height="3" width="4.2" depth="5"
+                   src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Fcouch.jpg?v=1629819922871"></a-box>
+      
+      <a-box position="-1.5 -1 -1.2" rotation="5 0 0"  height="3" width="4.2" depth="5"
+                   src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Fcouch.jpg?v=1629819922871"></a-box>
+      
+      <a-box position="-3.5 1 -1" rotation="5 0 0"  height="1" width="8.4" depth="5"
+                   src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Fcuishon%20roll.jpg?v=1629820398560"></a-box>
+      
+      
+      
 <!--       Walls -->
-      <a-box position="-8 3 0" rotation="0 90 0" width="100" height="100" color="#7BC8A4" depth="0.1"></a-box>
-      <a-box position="8 3 0" rotation="0 90 0" width="100" height="100" color="#7BC8A4" depth="0.1"></a-box>
-      <a-box position="-5 3 0" rotation="0 -360 0" width="50" height="50" color="brown" depth="0.1"></a-box>
-      <a-box position="8 3 0" rotation="0 90 0" width="50" height="50" color="#7BC8A4" depth="0.1"></a-box>
-      <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#7BC8A4"></a-plane>
+      <a-box position="-7.6 5 0" rotation="0 90 0" width="15" height="15" color="yellow" depth="0.1"></a-box>
+      <a-box position="7.5 5 0" rotation="0 90 0" width="15" height="15" color="green" depth="0.1"></a-box>
+      <a-box position="0 5 -4" rotation="0 -360 0" width="15" height="15" color="red" depth="0.1"></a-box>
+      <a-box position="0 11.8 0" rotation="90 0 0" width="15" height="15" color="blue" depth="0.1"></a-box>
+      <a-plane position="0 -2 2" rotation="-90 0 0" width="15" height="15" color="#7BC8A4"></a-plane>
     </a-scene>
   </body>
 </html>
