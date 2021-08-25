@@ -11,14 +11,18 @@
 
       
       <a-entity>
-            <a-box position="-1 6 -3.7" rotation="0 0 0" depth="0.1" height="6.6" width="4.8"
+            <a-box position="0 7 -3.7" rotation="0 0 0" depth="0.1" height="6.6" width="4.8"
                    src="https://cdn.glitch.com/32cc7f83-39ca-46bc-9a17-3725135b180a%2Fwindow.jpg?v=1629735304319"></a-box>
         </a-entity>
       
-<!--       Cuishons -->
-      <a-cylinder position = "-6.6 2.2 -0.8" radius = "0.7" height="4.9" rotation="90 -1 0"
+<!--       Cushions -->
+      <a-cylinder position = "-6.6 2 -0.8" radius = "0.6" height="4.5" rotation="90 -1 0"
                   src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Falessi-pebble-300x300.jpg?v=1629821981980" >
       </a-cylinder>
+      <a-box position="-4.2 2.2 -3" rotation="0 0 0"  height="2" width="2.7" depth="1"
+             src="https://cdn.glitch.com/5b1d054e-35d4-47f1-8ec1-8d62429add63%2Fcushion.jpg?v=1629903255171"></a-box>
+      <a-box position="-1 2.2 -3" rotation="0 0 0"  height="2" width="2.7" depth="1"
+             src="https://cdn.glitch.com/5b1d054e-35d4-47f1-8ec1-8d62429add63%2Fcushion.jpg?v=1629903255171"></a-box>
       
       
 <!--       Couch -->
@@ -31,6 +35,9 @@
       <a-box position="-3.5 1 -1" rotation="5 0 0"  height="1" width="8.4" depth="5"
                    src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Fcuishon%20roll.jpg?v=1629820398560"></a-box>
       
+      
+<!--      Table  -->
+      <a-box position="5 0.5 -3.7" rotation="0 0 0" depth="0.1" height="5.6" width="4.8"></a-box>
       
       
 <!--       Walls -->
