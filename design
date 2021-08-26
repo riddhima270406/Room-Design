@@ -5,15 +5,27 @@
   </head>
   <body>
     <a-scene>
-     <a-entity position="0 0.5 14">
+     <a-entity position="0 2 14">
             <a-camera></a-camera>
         </a-entity>
 
       
       <a-entity>
-            <a-box position="0 7 -3.7" rotation="0 0 0" depth="0.1" height="6.6" width="4.8"
+            <a-box position="3.8 5.5 -3.7" rotation="0 0 0" depth="0.1" height="9.6" width="5.7"
                    src="https://cdn.glitch.com/32cc7f83-39ca-46bc-9a17-3725135b180a%2Fwindow.jpg?v=1629735304319"></a-box>
         </a-entity>
+      
+<!--       Lamp -->
+      <a-cylinder position="-0.4 12 1.5" radius="0.2" height="3"></a-cylinder>
+      <a-cylinder position = "-0.4 10 1.5" radius = "1.6" height="1.5" rotation="0 0 0"
+                  src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Flamp.jpg?v=1629993012219" >
+      </a-cylinder>
+      <a-cylinder position = "-0.4 9.95 1.5" radius = "1.45" height="1.5" rotation="0 0 0"
+                  src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fneon.jfif?v=1629993288777" >
+      </a-cylinder>
+      <a-cylinder position = "-0.4 9.92 1.5" radius = "1.3" height="1.5" rotation="0 0 0" color="#463a30">
+      </a-cylinder>
+      
       
 <!--       Cushions -->
       <a-cylinder position = "-6.6 2 -0.8" radius = "0.6" height="4.5" rotation="90 -1 0"
@@ -36,16 +48,26 @@
                    src="https://cdn.glitch.com/29876c64-a4be-4998-a132-6655b6d64056%2Fcuishon%20roll.jpg?v=1629820398560"></a-box>
       
       
-<!--      Table  -->
-      <a-box position="5 0.5 -3.7" rotation="0 0 0" depth="0.1" height="5.6" width="4.8"></a-box>
+<!--      Painting  -->
+      <a-box position="-7 6.7 2.4" rotation="0 90 0" depth="0.1" height="4" width="8.4"
+             src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fpd2.jpg?v=1629989502619"></a-box>
+<!--       <a-box position="-3.4 6.6 -3.7" rotation="0 0 0" depth="0.1" height="4.5" width="6.4"
+             src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fp1d3.jpg?v=1629988901385"></a-box> -->
       
+      <a-box position="7 5.6 2.6" rotation="0 90 0" depth="0.1" height="7.4" width="6.4"
+             src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fp1d.jpg?v=1629988831889"></a-box>      
       
 <!--       Walls -->
-      <a-box position="-7.6 5 0" rotation="0 90 0" width="15" height="15" color="yellow" depth="0.1"></a-box>
-      <a-box position="7.5 5 0" rotation="0 90 0" width="15" height="15" color="green" depth="0.1"></a-box>
-      <a-box position="0 5 -4" rotation="0 -360 0" width="15" height="15" color="red" depth="0.1"></a-box>
-      <a-box position="0 11.8 0" rotation="90 0 0" width="15" height="15" color="blue" depth="0.1"></a-box>
-      <a-plane position="0 -2 2" rotation="-90 0 0" width="15" height="15" color="#7BC8A4"></a-plane>
+      <a-box position="-7.6 5 0" rotation="0 90 0" width="15" height="15" depth="0.1" color="lightblue"
+              src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fww1.jpg?v=1629990116788"></a-box>
+      <a-box position="7.5 5 0" rotation="0 90 0" width="15" height="15" depth="0.1" color="lightblue"
+              src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fww1.jpg?v=1629990116788"></a-box>
+      <a-box position="0 5 -4" rotation="0 0 0" width="15" height="15" color="lightblue" depth="0.1"
+             src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fww1.jpg?v=1629990116788"></a-box>
+      <a-box position="0 11.8 0" rotation="90 0 0" width="15" height="15" color="blue" depth="0.1"
+             src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fww1.jpg?v=1629990116788"></a-box>
+      <a-plane position="0 -2 2" rotation="-90 0 0" width="15" height="15" color="grey"
+               src="https://cdn.glitch.com/43b44373-1b99-471f-ad3f-6602f6a407d7%2Fflooring.jpg?v=1629993813908"></a-plane>
     </a-scene>
   </body>
 </html>
